@@ -1,4 +1,4 @@
-# Module 1 Challenge: Account Balancing
+# Module 1 Challenge(Dickson Afful): Account Balancing
 
 ### Two static methods were added at Main.
 - `getCustomers`: Parses string of customer information to a list of customers
