@@ -50,9 +50,13 @@ public class Customer {
         return charges;
     }
 
+    public void addCharge(AccountRecord accountRecord) {
+        charges.add(accountRecord);
+    }
+
     @Override
     public String toString() {
         //update this
-        return "{ ID: " + getId() + " Name: " + getName() + " Balance: " + getBalance() + " }";
+        return "{ ID: " + getId() + ", Name: " + getName() + ", Balance: " + getBalance() + " }";
     }
 }
