@@ -9,6 +9,7 @@ public class AccountRecord {
         this.chargeDate = chargeDate;
     }
 
+
     public int getCharge() {
         return charge;
     }

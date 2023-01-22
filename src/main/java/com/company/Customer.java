@@ -8,11 +8,6 @@ public class Customer {
     private String name;
     private List<AccountRecord> charges = new ArrayList<>();
 
-    public Customer(String id, String name, String charge, String chargeDate) {
-        this.id = Integer.parseInt(id);
-        this.name = name;
-        this.charges.add(new AccountRecord(Integer.parseInt(charge), chargeDate));
-    }
 
     public Customer(int id, String name) {
         this.id = id;
